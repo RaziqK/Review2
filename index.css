@@ -1,0 +1,49 @@
+#controls {
+    position: fixed;
+    bottom:-112px;
+    left:50%;
+    margin: auto;
+    display:inline-block;
+    z-index:1;
+    width:50px;
+}
+
+#menubut {
+    display:table-cell;
+    vertical-align: top;
+    position:absolute;
+    bottom:110px;
+}
+#bgimg{
+    width:100%;
+}
+#display {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100vw;
+}
+
+#background{
+    width:100%;
+    height:300px;
+    position: relative;
+    padding:120px;
+    background-image: url("zeld.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:grey;
+}
+
+#divtitle, #divdesc {
+    position:absolute;
+    left:10%;
+    font-size:30px;
+}
+#divtitle{
+    top:10%;
+    border-bottom:3px solid grey;
+}
+#divdesc{
+    top:20%;
+}
